@@ -392,3 +392,11 @@ a.button:hover, a.button:focus {
   background-color: #084b6d;
   color: #fff;
 }
+a.secondaryButton {
+  background-color: #084b6d;
+  color: #fff;
+}
+a.secondaryButton:hover, a.secondaryButtonfocus {
+  background-color: #fff;
+  color: #084b6d;
+}
