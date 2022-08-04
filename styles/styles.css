@@ -401,6 +401,25 @@ a.secondaryButton:hover, a.secondaryButtonfocus {
   color: #084b6d;
 }
 
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f8fbf3;
+}
+header .headerImgContainer {
+  width: 45%;
+}
+header .headerContentContainer {
+  width: 55%;
+  padding: 0 90px;
+}
+
 .navBar {
   position: sticky;
   top: 0;
