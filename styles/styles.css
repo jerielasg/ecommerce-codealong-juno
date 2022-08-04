@@ -316,23 +316,19 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 28px;
-  font-size: 1.4rem;
 }
 
 h2 {
   font-size: 40px;
-  font-size: 2rem;
   margin-bottom: 18px;
 }
 
 h3 {
   font-size: 34px;
-  font-size: 1.7rem;
 }
 
 h5 {
   font-size: 14px;
-  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
@@ -342,7 +338,6 @@ p {
 }
 p.smallCopy {
   font-size: 14px;
-  font-size: 0.7rem;
   font-weight: bold;
   margin: 0;
 }
@@ -384,7 +379,6 @@ a {
 a.button {
   border: 2px solid #084b6d;
   font-size: 14px;
-  font-size: 0.7rem;
   font-weight: bold;
   padding: 15px 30px;
 }
@@ -418,6 +412,48 @@ header .headerImgContainer {
 header .headerContentContainer {
   width: 55%;
   padding: 0 90px;
+}
+
+.categories {
+  padding: 90px 0;
+}
+
+.categoryGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+.categoryGallery .item1 {
+  background-color: #ffd698;
+}
+.categoryGallery .item2 {
+  background-color: #f4fcff;
+}
+.categoryGallery .item3 {
+  background-color: #f8fbf3;
+}
+.categoryGallery .item4 {
+  background-color: #fff5f5;
+}
+.categoryGallery .item {
+  width: 40%;
+  padding: 40px;
+  border-radius: 10%;
+  margin: 25px 0;
+}
+.categoryGallery .item a:hover, .categoryGallery .item a:focus {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.categoryGallery .item img {
+  border-radius: 10%;
+  margin-bottom: 20px;
 }
 
 .navBar {
@@ -535,7 +571,6 @@ footer .footerNav {
 footer a {
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
-  font-size: 0.8rem;
   line-height: 1.5rem;
 }
 footer a:hover, footer a:focus {
