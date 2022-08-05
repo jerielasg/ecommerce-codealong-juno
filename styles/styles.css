@@ -544,6 +544,11 @@ header .headerContentContainer {
           flex-direction: column;
   z-index: 20;
   left: -450px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.slideOutNav.open {
+  left: 0;
 }
 .slideOutNav button {
   -ms-flex-item-align: end;
@@ -633,6 +638,10 @@ footer a:hover, footer a:focus {
   }
   .navBar .logo {
     margin: 7px 0 12px;
+  }
+  .slideOutNav {
+    font-family: "Young Serif";
+    font-size: 30px;
   }
   .categories .categoryGallery {
     margin-top: 50px;
